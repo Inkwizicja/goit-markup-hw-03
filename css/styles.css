@@ -1,0 +1,7 @@
+body {
+    color: var(--navyblue, #2E2F42);
+    background-color: transparent;
+    font-family: roboto, sans-serif;
+}
+
+
