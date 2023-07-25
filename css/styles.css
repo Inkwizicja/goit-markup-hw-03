@@ -79,7 +79,14 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 color: var(--mail-color);
+list-style: none
 
+}
+.adress-item-list:hover{
+    color: #404bbf;
+}
+.adress-item-list:focus{
+    color: #404bbf;
 }
 .solutions {
     background-color: #2e2f42;
@@ -147,7 +154,7 @@ color:#2e2f42;
 
 }
 .team {
-    background-color: #FFFFFF;
+ background-color: #F4F4FDFF;
 }
 .team-main {
 font-size: 36px;
@@ -178,6 +185,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color:#2e2f42;
 }
 .footer {
     background-color: #2e2f42;
@@ -207,22 +215,9 @@ letter-spacing: 0.02em;
 .btn-apps-list {
     list-style: none;
 }
-.btn-apps-btn1 {
-background:#F4F4FD ; 
-color: #4d5ae5; 
-font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: pointer;
 
-}
-.btn-apps-btn1:hover,
-.btn-apps-btn1:focus {
-    color:var(--backgraund);
-    background-color: #404BBF;
-}
+
+
 
 
 .btn-apps-btn {
@@ -235,6 +230,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
+.btn-apps-btn:hover,
+.btn-apps-btn:focus {
+    color:#FFFFFF ;
+    background-color:#404BBF ;
+}
+
 .img {
 }
 .img-list {
@@ -252,12 +253,16 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
+color:#2e2f42;
 }
 .img-list-text {
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
+list-style: none;
+color: #434455;
+text-decoration: none;
 }
