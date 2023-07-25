@@ -1,7 +1,7 @@
 body {
     color: #434455;
     background-color: #FFFFFF;
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 a {
@@ -10,16 +10,18 @@ text-decoration: none;
 
 }
 .title-logo{
+    text-decoration: none 
     
 }
 .header {
-    font-style: normal;
+    text-decoration: none;
+    
 }
 .header-nav {
     list-style: none;
 }
 .header-logo {
-    color: var(--navyblue, #2E2F42);
+    color: #4d5ae5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
@@ -27,9 +29,10 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none; 
 }
 .header-logo-span {
-    color:#4D5AE5;
+    color:#2e2f42;
 }
 .header-list {
     text-decoration: none;
@@ -44,9 +47,8 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-meniu-link:hover{
-    color:#404bbf;
-}
+
+.header-meniu-link:hover,
 .header-meniu-link:focus{
    color:#404bbf;
 }
@@ -78,14 +80,14 @@ letter-spacing: 0.02em;
 text-align: center; 
 }
 .solutions-btn {
-background: #4D5AE5;
+background-color: #4D5AE5;
 color:#FFF;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-cursor: pointe;
+cursor: pointer;
 }
 .solutions-btn:hover{
     background-color: #404BBF;
@@ -103,6 +105,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .benifits-header-text {
 font-size: 16px;
@@ -189,7 +192,7 @@ letter-spacing: 0.02em;
     list-style: none;
 }
 .btn-apps-btn1 {
-background: #F4F4FD ; 
+background:#F4F4FD ; 
 color: #4d5ae5; 
 font-family: Roboto, sans-serif;
 font-weight: 500;
@@ -199,14 +202,28 @@ letter-spacing: 0.04em;
 cursor: pointer;
 
 }
+.btn-apps-btn1:hover,
+.btn-apps-btn1:focus {
+    color:#FFFFFF;
+    background-color: #404BBF;
+}
+
+
 .btn-apps-btn {
 background: #F4F4FD;
 color: #4D5AE5;
-
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 .img {
 }
 .img-list {
+    list-style: none;
+    text-decoration: none;
 }
 .img-list-list {
 }
