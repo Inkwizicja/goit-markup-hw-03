@@ -9,16 +9,21 @@ a {
 text-decoration: none;
 
 }
+
+:root{
+
+}
 .title-logo{
-    text-decoration: none 
+    text-decoration: none; 
     
 }
 .header {
-    text-decoration: none;
+    
     
 }
 .header-nav {
     list-style: none;
+    text-decoration: none;
 }
 .header-logo {
     color: #4d5ae5;
@@ -34,18 +39,19 @@ text-decoration: none;
 .header-logo-span {
     color:#2e2f42;
 }
-.header-list {
-    text-decoration: none;
-}
+.header-list {}
+    
 .header-meniu-item {
     
 }
+
 .header-meniu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .header-meniu-link:hover,
@@ -55,6 +61,7 @@ text-decoration: none;
 
 .address {
 font-style: normal;
+text-decoration: none;
 }
 .address-list {
 }
@@ -65,7 +72,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-color: var(--slate, #434455);
+color: #434455;
+
 }
 .solutions {
     background-color: #2e2f42;
