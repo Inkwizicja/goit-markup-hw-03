@@ -31,6 +31,10 @@ list-style: none;
     list-style: none;
     text-decoration: none;
 }
+
+.header-nav list link{
+    text-decoration: none;
+}
 .header-logo {
     color: #4d5ae5;
 font-family: Raleway, sans-serif;
