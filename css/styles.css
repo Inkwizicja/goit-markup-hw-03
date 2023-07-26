@@ -42,6 +42,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none; 
 }
+.header-logo link{
+    text-decoration: none;
+}
 .header-meniu-link link{
     text-decoration: none;
 }
@@ -168,7 +171,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-background-color: #F4F4FD ;
+background-color:  #FFFFFF ;
 }
 .team-list list {
     background-color: #FFFFFF;
@@ -196,10 +199,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+background-color: #FFFFFF;
 }
-.team-list list{
-    background-color: #FFFFFF;
-}
+
 .footer {
     background-color: #2e2f42;
 }
