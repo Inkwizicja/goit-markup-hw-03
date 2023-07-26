@@ -51,7 +51,9 @@ text-decoration: none;
 .header-logo-span {
     color:#2e2f42;
 }
-.header-list {}
+.header-list {
+    text-decoration: none;
+}
     
 .header-meniu-item {
     
@@ -171,15 +173,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-background-color: #FFFFFF;
+
 }
 .team-list list {
     background-color: #FFFFFF;
 }
 .team-number {
+    background-color: #FFFFFF;
 }
 .team-foto {
-
+    
 }
    
 .team-names {
