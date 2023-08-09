@@ -18,7 +18,7 @@ p,h1,h2,h3,h4,ul{
 .container { 
     width: 1158px; 
     padding: 0 15px 0 15px;
-    margin: 0 auto; 
+    margin: 0 auto;
     
     }
     .container-solition{
@@ -110,6 +110,7 @@ margin-right: 76px;
     gap: 40px;
     margin-left: 76px;
     margin-right: 332px;
+    padding: 24px 0 24px;
 }
     
 .header-meniu-item {
@@ -178,7 +179,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center; 
-min-width: 496px;
+max-width: 496px;
 margin-bottom: 48px;
 text-align: center;
 
@@ -212,6 +213,7 @@ border: none;
     list-style: none;
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
 .benefits-header {
 font-size: 20px;
@@ -221,6 +223,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+width: calc((100% - 72px) / 4); 
+ display:flex;
+ gap: 24px;
+ max-width: 264px;
 }
 .benifits-header-text {
 font-size: 16px;
@@ -228,12 +234,14 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-max-width: 264px;
- width: calc((100% - 3 * 24px) / 4) 
- display:flex;
+
 }
 .actions {
     
+}
+.list{
+    
+ 
 }
 .actions list{
     
@@ -261,7 +269,9 @@ color:#2e2f42;
 }
 .actions-text-list {
     
+ .list{
     
+ }   
 
 }
 .actions-text-img {
@@ -289,23 +299,27 @@ margin-bottom: 72px;
 }
 .team-list list {
     background-color: #FFFFFF;
+    
+    
 }
 .team-li{
     display: flex;
-    gap: 24px;
-    width: calc((100% - 3 * 24px) / 4); 
-    border-radius: 0px 0px 4px 4px;
-    
+gap: 24px;
+width: calc((100% - 3 * 24px) / 4); 
+border-radius: 0px 0px 4px 4px;
+margin-left: 156px;
+
 }
 .team-number {
     background-color: #FFFFFF;
+    
 }
 .team-foto {
     
 }
   .team-main{
    align-self: center;
- 
+  
   } 
 .team-names {
 font-size: 20px;
@@ -332,7 +346,7 @@ color:#434455;
 background-color: #FFFFFF;
 padding-bottom: 32px;
 text-align: center;
-
+; 
 }
 
 .footer {
@@ -373,12 +387,14 @@ padding-top: 18px;
     display: flex;
     gap: 24px;
     margin-left: 271px;
-    
+    justify-content: center; 
+    margin-bottom: 72px;
 }
 
 .btn-apps{
     padding-bottom: 120px;
     padding-top: 96px;
+    
 }
 
 
@@ -401,7 +417,8 @@ border: 1px solid #e7e9fc;
 .btn-apps-btn:focus {
     color:#FFFFFF ;
     background-color:#404BBF ;
-    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+
 }
 
 .img {
@@ -411,6 +428,9 @@ border: 1px solid #e7e9fc;
     text-decoration: none;
     flex-wrap: wrap;
     width: calc((100%-2*24px)/3);
+    justify-content: center; 
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .img-list list {
    
